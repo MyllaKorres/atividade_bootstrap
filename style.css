@@ -1,0 +1,39 @@
+﻿body {
+    font: 20px Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #070F27;
+}
+
+.quem-somos {
+    background-color: #7C0000;
+    color: white;
+}
+
+.parceiros {
+    color: #7C0000;
+}
+
+.serv {
+    background-color: #7C0000;
+    color: white;
+}
+
+.margin {
+    /*margin-top: 30px;*/ 
+    /* margem externa. cria uma margem entre o componente atual 
+       e o de cima, deixando um espaço vazio entre eles. */
+    padding-top: 30px; 
+    /* margem interna. mantém a cor de fundo do elemento*/
+    padding-bottom: 30px;
+}
+
+.aux {
+    padding-bottom: 27px;
+}
+
+.bg-footer {
+    background-color: #070F27;
+    color: white;
+}

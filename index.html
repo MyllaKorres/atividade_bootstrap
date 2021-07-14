@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>BOOTSTRAP</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="img/owl.png" width="200" height="120">
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#quemsomos"><b>QUEM SOMOS</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#parceiros"><b>PARCEIROS</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#serv"><b>SERVIÇOS</b></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="quemsomos">
+        <div class="container-fluid quem-somos text-center margin"> 
+        <!-- container: cria margem | container-fluid: pega a página inteira -->
+           <h3 class="aux">QUEM SOMOS</h3>
+           <img src="img/team.png" class="rounded-circle aux">
+           <h4>Somos um time comprometido com os resultados.</h4>
+        </div>
+    </section>
+    <section id="parceiros">
+        <div class="container-fluid parceiros text-center margin">
+            <h3 class="aux">PARCEIROS</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <!-- lg: grande | md: médio | sm: pequeno -->
+                        <img src="img/cat_logo.png" width="125" height="125" ;>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/eye_logo.png" width="125" height="125" ;>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/logo.png" width="125" height="125" ;>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="serv">
+        <div class="container-fluid serv text-center margin">
+            <h3 class="aux">SERVIÇOS</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img class="aux" src="img/app.png" width="400" height="300";>
+                        <h5>Desenvolvimento de Aplicativos</h5>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="aux" src="img/site.png" width="325" height="300";>
+                        <h5>Criação de sites</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid text-center bg-footer margin">
+        <p>Desenvolvido por Mylla Korres</p>
+    </footer>
+</body>
+</html>
